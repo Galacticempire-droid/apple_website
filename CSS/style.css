@@ -1,0 +1,542 @@
+body {
+    background: url("your_verse_hero.jpg") 50% 100% no-repeat;
+    margin-top: 490px;
+}
+
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+#billboard {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 292px;
+    left: 0;
+    overflow: hidden;
+    height: 384px;
+}
+
+.trim {
+    width: 100%;
+}
+
+
+
+#globalheader {
+    height: 36px;
+    top: -410px;
+    margin: 0 auto;
+    margin-top: 5px;
+    position: relative;
+    display: block;
+    width: 980px;
+    overflow: hidden;
+    background-color: #333;
+    text-align: left;
+    color: white;
+    border-radius: 4px;
+    box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+
+#globalnav {
+    z-index: 9999;
+    float: left;
+    width: 845px;
+    table-layout: fixed;
+    height: 36px;
+    position: relative;
+    width: 120%;
+    margin-top: -19px;
+    padding-right: 15px;
+}
+
+.gn-apple {
+    width: 100%;
+    overflow: hidden;
+    height: 36px;
+    margin-top: 15px;
+    border: 1px solid black;
+}
+
+a.home:hover {
+    text-decoration: none;
+}
+
+a#store:link, a#store:visited {
+    color: white;
+}
+
+a#store:hover {
+    cursor: pointer;
+}
+
+.logo {
+    background: url("apple_logo.png");
+}
+
+
+aside {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    bottom: -62px;
+    width: 100%;
+    height: 180px;
+    margin-left: -50px;
+    padding: 0;
+}
+
+ul {
+    list-style: none outside;
+}
+
+.ad {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin: 0 auto;
+    min-width: 1024px;
+    width: 100%;
+    max-width: 1440px;
+    height: 300px;
+    text-align: center;
+}
+
+aside .ad li {
+    position: relative;
+    z-index: 1;
+    float: left;
+    overflow:hidden;
+    margin: 0;
+    width: 25%;
+    height: 200px;
+    padding: 0;
+}
+
+aside .ad li a {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    cursor: pointer;
+}
+
+aside .ad li a img {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -182px;
+}
+
+aside .ad li + li + li + li {
+    margin-right: -.3%;
+    width: 25.3%;
+}
+
+#homefooter {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    min-width: 980px;
+    width: 100%;
+    height: 16px;
+    padding: 0;
+    color: #6e6e6e;
+    font-size: .8334em;
+    line-height: 1.2;
+    text-align: center;    
+}
+
+#homefooter .wrapper {
+    margin: 0 auto;
+    width: 980px;
+    padding: 1em 0 2.6em;
+    margin-top: 50px;
+}
+
+.left {
+    float: left;
+    clear: both;
+    width: 55%;
+    padding-top: 1.5em;
+    text-align: left;
+    font-size: 0.8em;
+    font-family: "Gill Sans", sans-serif;
+}
+
+
+.right {
+    float: left;
+    width: 51%;
+    padding-top: 1.5em;
+    margin-top: -37px;
+    text-align: right;
+    font-size: 0.7em;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.first {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+}
+
+.right .first a {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a:link, a:visited {
+    color: #08c;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.small {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 145px;
+    border: 0;
+}
+
+.subheadline {
+    margin-bottom: 27px;
+    margin-left: 185px;
+    margin-top: -30px;
+}
+
+.cta {
+    position: relative;
+    margin-top: 32px;
+}
+
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+
+
+.cta a {
+    display: inline-block;
+    margin: 0 18px 25px;
+    height: 19px;
+}
+
+.cta a .medium {
+    display: inline-block;
+    margin-top: -36px;
+}
+
+.shop {
+    margin-top: 130px;
+    font-size: 0.8em;
+    font-family: "Gill Sans", sans-serif;
+    width: 35%;
+    margin-left: 170px;
+}
+
+.apple {
+    float: right;
+    width: 50.5%;
+    padding-top: -30px;
+    text-align: left;
+    font-size: 0.7em;
+    font-family: "Gill Sans", sans-serif;
+    margin-top: -29px;
+}
+
+.bo {
+    border-left: 1px solid lightgrey;
+}
+
+li {
+    display: inline;
+}
+
+.hotnews {
+    margin-left: 4px;
+}
+
+.rss {
+    margin-left: 4px;
+}
+
+.mediainfo {
+    margin-left: 4px;
+}
+
+.environment {
+    margin-left: 4px;
+}
+
+.jobopportunities {
+    margin-left: 4px;
+}
+
+.contactus {
+    margin-left: 4px;
+}
+
+
+.country {
+    margin-left: 4px;
+    margin-top: 20px;
+}
+
+.copyright {
+    width: 30%;
+    margin-left: 96px;
+    margin-top: 5px;
+    font-size: 0.8em;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.termsofuse {
+    margin: 0;
+    float: left;
+    margin-left: 3px;
+    margin-top: -23px;
+    font-size: 0.8em;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.terms {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+}
+
+.t {
+    margin-left: 375px;
+}
+
+.privacy {
+    margin-left: 4px;
+}
+
+.spacing {
+    padding: 2px;
+    margin: 38px;
+}
+
+.store {
+    padding: 15px;
+    width: 110px;
+    color: white;
+    background-color: #333;
+    border: 1px solid black;
+    border-width: 0 2x 0 1px;
+}
+
+
+#mac {
+    margin-left: -84px;
+}
+
+.mac {
+    padding: 15px;
+    width: 110px;
+    color: white;
+    text-align: center;
+    background-color: #333;
+    border: none;
+    border-right: 1px solid black;
+}
+
+#iPod {
+    margin-left: -84px;
+}
+
+.iPod {
+    padding: 15px;
+    width: 110px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-right: 1px solid black;
+}
+
+#iPhone {
+    margin-left: -84px;
+}
+
+.iPhone {
+    padding: 15px;
+    width: 110px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-right: 1px solid black;
+}
+
+#iPad {
+    margin-left: -85px;
+}
+
+.iPad {
+    padding: 15px;
+    width: 110px;
+    color: white;
+    background-color: #333;
+    border: 1px solid black;
+    border-width: 0 2x 0 1px;
+}
+
+#iTunes {
+    margin-left: -84px;
+}
+
+.iTunes {
+    padding: 15px;
+    width: 110px;
+    color: white;
+    background-color: #333;
+    border: 1px solid black;
+    border-width: 0 2x 0 1px;
+}
+
+#Support {
+    margin-left: -85px;
+}
+
+.Support {
+    padding: 15px;
+    width: 110px;
+    color: white;
+    background-color: #333;
+    border: 1px solid black;
+    border-width: 0 2x 0 1px;
+}
+
+input {
+    width: 95px;
+    background-color: grey;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.search {
+    margin-left: -40px;
+}
+
+button:hover {
+    opacity: 0.9;
+    background-color: rgb(34, 34, 34);
+    cursor: pointer;
+}
+
+a#store:link {
+    color: white;
+}
+
+a#store:visited {
+    color: white
+}
+
+a#store:hover {
+    cursor: pointer;
+}
+
+a#mac:link {
+    color: white;
+}
+
+a#mac:visited {
+    color: white
+}
+
+a#mac:hover {
+    cursor: pointer;
+}
+
+a#iPod:link {
+    color: white;
+}
+
+a#iPod:visited {
+    color: white
+}
+
+a#iPod:hover {
+    cursor: pointer;
+}
+
+a#iPhone:link {
+    color: white;
+}
+
+a#iPhone:visited {
+    color: white
+}
+
+a#iPhone:hover {
+    cursor: pointer;
+}
+
+a#iPad:link {
+    color: white;
+}
+
+a#iPad:visited {
+    color: white
+}
+
+a#iPad:hover {
+    cursor: pointer;
+}
+
+a#iTunes:link {
+    color: white;
+}
+
+a#iTunes:visited {
+    color: white
+}
+
+a#iTunes:hover {
+    cursor: pointer;
+}
+
+a#Support:link {
+    color: white;
+}
+
+a#Support:visited {
+    color: white
+}
+
+a#Support:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+.half-eaten {
+    margin-top: 23px;
+}
+
